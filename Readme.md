@@ -28,10 +28,10 @@ _Nota: De esta parte en adelante será en la nube._
 
 La segunda parte empieza por instalar kubernetes la cual será la base de las aplicaciones.
 Balanceadores de carga (Nginx y Contour):
-Será el mismo trabajo con dos balanceadores de carga distintos, se deben de instalar los
-balanceadores de carga de forma local, los balanceadores de carga apuntará a dos 
+Será el mismo trabajo con dos balanceadores de carga distintos, se instalaron los
+balanceadores de carga de forma local, los balanceadores de carga apuntan a dos 
 contenedores que tendrán cada uno un servidor web corriendo sobre go, entonces los 
-balanceadores de carga recibirán los datos de la aplicación local y los distribuirá entre los dos 
+balanceadores de carga reciben los datos de la aplicación local y los distribuirá entre los dos 
 contenedores
 
 Esta segunda parte la pueden encontrar en la carpeta Manuales/Manual_Tecnico
@@ -57,8 +57,8 @@ datos que se estarán manejando.
 _Enlace a repositorio de tercera parte:_ https://github.com/WilderSiguantay/api-nats
 
 ## Cuarta parte (Bases de datos)
-Se necesita que se implementen bases de datos no relaciones para mejorar la velocidad y 
-rendimiento de la aplicación, las bases de datos a manejar serán:
+Se implementarion bases de datos no relacionales, esto para aumentar la velocidad y rendimiento de la app.
+Las bases de datos que se implementaron son:
 - MongoDB: Es un sistema de base de datos NoSQL, orientado a documentos y de 
 código abierto. En lugar de guardar los datos en tablas, tal y como se hace en las 
 bases de datos relacionales, MongoDB guarda estructuras de datos BSON (una 
@@ -69,15 +69,16 @@ utilizado como base de datos, caché y agente de mensajes. Admite estructuras de
 datos como cadenas, hashes, listas, conjuntos, conjuntos ordenados con consultas 
 de rango, mapas de bits, hiperloglogs, índices geoespaciales con consultas y flujos de 
 radio.
-Estas bases de datos deberán de ser instaladas en máquinas virtuales en la nube.
+Estas bases de datos están instaladas en maquinas virtuales
+en GCP.
 
 ## Quinta parte (Pagina Web)
-Por último, se debe de crear una página web corriendo sobre un servidor de node js, dentro 
-de la página la cual tendrá una temática de coronavirus debe de tener lo siguiente:
+Por último, se creó una página web corriendo sobre un servidor de node js, dentro 
+de la página hay una temática de coronavirus la cual tiene lo siguiente:
 Apartados:
-- Deberá mostrar una tabla con todos los datos 
+- Una tabla con todos los datos 
 (MongoDB).
-- Deberá mostrar el top tres de departamentos con 
+- El top tres de departamentos con 
 más casos(MongoDB).
 - Gráfica de Pie con todos los departamentos 
 afectados (MongoDB).
