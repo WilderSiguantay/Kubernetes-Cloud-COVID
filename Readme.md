@@ -94,4 +94,16 @@ _Esta ultima parte está en este repositorio, en la carpeta AppNode_
 
 <img src="https://github.com/WilderSiguantay/Kubernetes-Cloud-COVID/blob/main/Imágenes/ArquitecturaFinal.PNG" alt="My cool logo"/>
 
+
+## MONITOREO
+### Jaeger
+Se implementó jaeger tracing en todos los contenedores para poder 
+monitorear todas las acciones que suceden en estos.
+### Linkerd
+También se implementó Linkerd, esta es una herramienta que trabaja
+en conjunto con kubernetes para el monitoreo de los contenedores.
+### Prometheus
+Se instaló el softeware de prometheus para el monitoreo de las maquinas 
+virtuales que contienen las bases de datos. 
+
 **Para mayor información sobre el proyecto, puede leer el enunciado del mismo, el cual está en la carpeta Enunciado.**
