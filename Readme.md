@@ -8,7 +8,7 @@ _La aplicación utiliza el concepto de colas para el manejo de la concurrencia. 
 _la información mediante diferentes nodos, cada uno con implementado con_
 _tecnología diferente._
 
-## Parte 1
+## Primera Parte 
 ### Envío de Datos
 La primera parte consta en realizar un programa en Go el cual debe enviar los datos de un 
 archivo de entrada a los balanceadores de carga, los balanceadores de carga serán
