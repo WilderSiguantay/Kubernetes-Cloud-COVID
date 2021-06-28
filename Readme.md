@@ -18,8 +18,7 @@ implementados en:
 El archivo con los datos tendrá el siguiente formato:
 <img src="https://github.com/WilderSiguantay/Kubernetes-Cloud-COVID/blob/main/Imágenes/P1Formato.PNG" alt="My cool logo"/>
 
-_Enlace a repositorio Git de la parte 1_
-https://github.com/WilderSiguantay/SO1P2-EnvioDatosGo
+[Enlace a repositorio de primera parte:](https://github.com/WilderSiguantay/SO1P2-EnvioDatosGo)
 
 
 ## Segunda Parte (Balanceadores de carga)
@@ -54,7 +53,9 @@ La información será enviada a dos contenedores que correrán una aplicación e
 estas aplicaciones se encargarán de almacenar los datos finalmente en las dos bases de 
 datos que se estarán manejando.
 
-_Enlace a repositorio de tercera parte:_ https://github.com/WilderSiguantay/api-nats
+[Enlace a repositorio de tercera parte:](https://github.com/WilderSiguantay/api-nats)
+
+
 
 ## Cuarta parte (Bases de datos)
 Se implementarion bases de datos no relacionales, esto para aumentar la velocidad y rendimiento de la app.
@@ -92,3 +93,5 @@ _Esta ultima parte está en este repositorio, en la carpeta AppNode_
 
 
 <img src="https://github.com/WilderSiguantay/Kubernetes-Cloud-COVID/blob/main/Imágenes/ArquitecturaFinal.PNG" alt="My cool logo"/>
+
+**_Para mayor información sobre el proyecto, puede leer el enunciado del mismo, el cual está en la carpeta Enunciado._**
