@@ -1,4 +1,4 @@
-# Proyecto realizado en Sistemas Operativos 1
+# Proyecto Visualizacion casos COVID 19
 
 _El proyecto consiste en crear un sitio web que muestre los datos enviados en tiempo real con_
 _ayuda de dos balanceador de carga, Docker Compose, kubernetes y las bases de datos de_
