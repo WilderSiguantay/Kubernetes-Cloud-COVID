@@ -4,8 +4,8 @@ _El proyecto consiste en crear un sitio web que muestre los datos enviados en ti
 _ayuda de dos balanceador de carga, Docker Compose, kubernetes y las bases de datos de_
 _Mongodb y Redis._
 
-_La aplicación utiliza el concepto de colas para el manejo de la concurrencia. Transmite _
-_la información mediante diferentes nodos, cada uno con implementado con _
+_La aplicación utiliza el concepto de colas para el manejo de la concurrencia. Transmite_
+_la información mediante diferentes nodos, cada uno con implementado con_
 _tecnología diferente._
 
 ## Parte 1
