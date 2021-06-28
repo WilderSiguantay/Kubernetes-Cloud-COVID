@@ -16,3 +16,4 @@ implementados en:
 - Contour
 - Nginx
 El archivo con los datos tendrá el siguiente formato:
+<img src="https://github.com/WilderSiguantay/Kubernetes-Cloud-COVID/blob/main/Imágenes/P1Formato.PNG" alt="My cool logo"/>
